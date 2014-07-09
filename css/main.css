@@ -106,7 +106,7 @@ hr {
 	color: #fff;
 	text-align: center
 }
-#testimonial {
+#auspiciadores {
 	background-color: #65BC45;
 	margin-top: 80px;
 	padding-top: 80px;
@@ -126,11 +126,11 @@ hr {
 	margin-bottom: -50px;
 	height: 100%;
 }
-#testimonial h1 {
+#auspiciadores h1 {
 	color: #fff;
 	font-size: 38px
 }
-#testimonial h2 {
+#auspiciadores h2 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 700
