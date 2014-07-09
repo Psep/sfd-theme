@@ -311,3 +311,11 @@ input.gn-search:focus {
 	background-color: #65BC45;
 	font-weight: bold;
 }
+ 
+.titulo{
+	padding-left: 0px;
+}
+
+.titulo2{
+	margin-top: 35px;
+}
