@@ -26,61 +26,65 @@
 
 	<body data-spy="scroll" data-offset="0" data-target="#gn-menu">
 
-		<!-- Menu -->
-		<div class="container">
-			<ul id="gn-menu" class="gn-menu-main">
-				<li id="menu" class="gn-trigger">
-					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-					<nav class="gn-menu-wrapper">
-						<div class="gn-scroller">
-							<ul class="gn-menu">
-								<li class="gn-search-item">
-									<input placeholder="Search" type="search" class="gn-search">
-									<a class="gn-icon gn-icon-search"><span>Search</span></a>
-								</li>
-								<li>
-									<a href="#home" class="gn-icon gn-icon-home smoothScroll">Home</a>
-								</li>
-								<li>
-									<a href="#about" class="gn-icon gn-icon-archive smoothScroll">About</a>
-								</li>
-								<li>
-									<a href="#portfolio" class="gn-icon gn-icon-pictures smoothScroll">Portfolio</a>
-								</li>
-								<li>
-									<a href="#about" class="gn-icon gn-icon-newspaper smoothScroll">Agenda</a>
-								</li>
-								<li>
-									<a href="blog.html" class="gn-icon gn-icon-article smoothScroll">Blog</a>
-								</li>
-								<li>
-									<a href="contact.html" class="gn-icon gn-icon-envelop smoothScroll">Contact</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</li>
-				<!-- Title -->
-				<li id="logoCentrado">
-					<a href="index.html" class="smoothScroll"><img src="img/logo.png"/></a>
-				</li>
-			</ul>
-		</div>
+		<div id="header">
+			
+			<!-- Menu -->
+			<div class="container">
+				<ul id="gn-menu" class="gn-menu-main">
+					<li id="menu" class="gn-trigger">
+						<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+						<nav class="gn-menu-wrapper">
+							<div class="gn-scroller">
+								<ul class="gn-menu">
+									<li class="gn-search-item">
+										<input placeholder="Search" type="search" class="gn-search">
+										<a class="gn-icon gn-icon-search"><span>Search</span></a>
+									</li>
+									<li>
+										<a href="#home" class="gn-icon gn-icon-home smoothScroll">Home</a>
+									</li>
+									<li>
+										<a href="#about" class="gn-icon gn-icon-archive smoothScroll">About</a>
+									</li>
+									<li>
+										<a href="#portfolio" class="gn-icon gn-icon-pictures smoothScroll">Portfolio</a>
+									</li>
+									<li>
+										<a href="#about" class="gn-icon gn-icon-newspaper smoothScroll">Agenda</a>
+									</li>
+									<li>
+										<a href="blog.html" class="gn-icon gn-icon-article smoothScroll">Blog</a>
+									</li>
+									<li>
+										<a href="contact.html" class="gn-icon gn-icon-envelop smoothScroll">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</li>
+					
+					<!-- Title -->
+					<li id="logoCentrado">
+						<a href="index.html" class="smoothScroll"><img src="img/logo.png"/></a>
+					</li>
+				</ul>
+			</div>
 
-		<!-- Cabecera -->
-		<section id="home" name="home">
-			<div id="headerwrap">
-				<div class="container titulo">
-					<div class="col-lg-8 titulo2">
-						<h1>Santiago de Chile<br />2014</h1>
+			<!-- Cabecera -->
+			<section id="home" name="home">
+				<div id="headerwrap">
+					<div class="container titulo">
+						<div class="col-lg-8 titulo2">
+							<h1>Santiago de Chile<br />2014</h1>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 
 		<!-- Acerca de -->
 		<section id="about" name="about">
-			<div class="container about">
+			<article class="container about">
 				<h3>Acerca del Software Freedom Day</h3>
 				<h5>Día de la Libertad de Software</h5>
 				<hr>
@@ -92,7 +96,7 @@
 					eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, 
 					ut fugit veritus placerat per.
 				</p>
-			</div>
+			</article>
 		</section>
 		
 		<!-- Items de Software Libre -->
@@ -103,36 +107,59 @@
 					<!-- TODO -->
 					
 					<div class="row-fluid">
-							<div class="col-md-4 itemSpace">
+							<div class="col-sm-3 col-md-3 itemSpace">
 							
 								<section>
 									<span class="icon feature fa-check"></span>
 									<header>
-										<h3>This is Something</h3>
+										<h3>Libertad 0</h3>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<p>
+										La libertad de <strong>ejecutar</strong> el programa como se desea, con cualquier propósito.
+									</p>
 								</section>
 							
 							</div>
-							<div class="col-md-4 itemSpace">
+							<div class="col-sm-3 col-md-3 itemSpace">
 							
 								<section>
 									<span class="icon feature fa-check"></span>
 									<header>
-										<h3>Also Something</h3>
+										<h3>Libertad 1</h3>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<p>
+										La libertad de <strong>estudiar</strong> cómo funciona el programa, 
+										y cambiarlo para que haga lo que usted quiera. 
+										El acceso al código fuente es una condición necesaria para ello.
+									</p>
 								</section>
 							
 							</div>
-							<div class="col-md-4 itemSpace">
+							<div class="col-sm-3 col-md-3 itemSpace">
 							
 								<section>
 									<span class="icon feature fa-check"></span>
 									<header>
-										<h3>Probably Something</h3>
+										<h3>Libertad 2</h3>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<p>
+										La libertad de <strong>redistribuir copias</strong> para ayudar a su prójimo.
+									</p>
+								</section>
+							
+							</div>
+							<div class="col-sm-3 col-md-3 itemSpace">
+							
+								<section>
+									<span class="icon feature fa-check"></span>
+									<header>
+										<h3>Libertad 3</h3>
+									</header>
+									<p>
+										La libertad de distribuir copias de sus versiones <strong>modificadas</strong> a terceros. 
+										Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. 
+										El acceso al código fuente es una condición necesaria para ello.
+									</p>
 								</section>
 							
 							</div>
